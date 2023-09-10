@@ -28,7 +28,7 @@ class DataTest
     }
 
     public  function  fStudent(){
-        $student = Db::name('student')->find(4);
+        $student = Db::name('student')->find(5);
         return json($student);
     }
 
