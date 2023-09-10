@@ -17,4 +17,9 @@ class DataTest
         return json($student);
     }
 
+    public  function  orStudent(){
+        $student = Db::name('student')->find(2);
+        return json($student);
+    }
+
 }
