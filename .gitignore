@@ -1,0 +1,11 @@
+*.log
+.env
+composer.phar
+composer.lock
+.DS_Store
+Thumbs.db
+#此处编辑的是不需要提交的文件名
+/.idea
+/.settings
+/.buildpath
+/.project
