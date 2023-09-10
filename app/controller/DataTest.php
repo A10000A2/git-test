@@ -28,6 +28,7 @@ class DataTest
     }
 
     public  function  fStudent(){
+//        master
         $student = Db::name('student')->find(4);
         return json($student);
     }
