@@ -12,4 +12,9 @@ class DataTest
         return json($student);
     }
 
+    public  function  oneStudent(){
+        $student = Db::name('student')->find(1);
+        return json($student);
+    }
+
 }
