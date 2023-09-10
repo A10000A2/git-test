@@ -33,4 +33,10 @@ class DataTest
         return json($student);
     }
 
+    public  function  sStudent(){
+//        master
+        $student = Db::name('student')->find(5);
+        return json($student);
+    }
+
 }
