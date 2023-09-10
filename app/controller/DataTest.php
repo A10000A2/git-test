@@ -39,4 +39,10 @@ class DataTest
         return json($student);
     }
 
+    public  function  svStudent(){
+//        master
+        $student = Db::name('student')->find(7);
+        return json($student);
+    }
+
 }
